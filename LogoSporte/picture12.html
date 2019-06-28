@@ -18,6 +18,13 @@
 <body>
     <!-- SVG sprite-->
     <div class="sprite" style="display:none;">
+        <svg aria-hidden="true" id="exclamation" focusable="false" data-prefix="fas" data-icon="exclamation"
+            class="svg-inline--fa fa-exclamation fa-w-6" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 192 512">
+            <path
+                d="M176 432c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80zM25.26 25.199l13.6 272C39.499 309.972 50.041 320 62.83 320h66.34c12.789 0 23.331-10.028 23.97-22.801l13.6-272C167.425 11.49 156.496 0 142.77 0H49.23C35.504 0 24.575 11.49 25.26 25.199z">
+            </path>
+        </svg>
         <svg aria-hidden="true" id="icon-left" focusable="false" data-prefix="fas" data-icon="chevron-left"
             class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 320 512">
@@ -97,7 +104,9 @@
                     <div class="wrp-slider">
                         <div class="slider">
                             <a href="#" class="close-btn">
-                                <i class="fas fa-exclamation"></i>
+                                <svg class="inline-svg-icon">
+                                    <use xlink:href="#exclamation"></use>
+                                </svg>
                             </a>
                             <a href="#" class="slide-left">
                                 <svg class="inline-svg-icon">
@@ -322,10 +331,10 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="js/app.min.js"></script>
 </body>
 

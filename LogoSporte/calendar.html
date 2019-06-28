@@ -94,17 +94,17 @@
             <table id="calendar2">
                 <thead>
                     <tr>
-                        <td>‹
-                        <td colspan="5">
-                        <td>›
+                        <td colspan="2">‹
+                        <td colspan="3">
+                        <td colspan="2">›
                     <tr>
-                        <td>Пн
-                        <td>Вт
-                        <td>Ср
-                        <td>Чт
-                        <td>Пт
-                        <td>Сб
-                        <td>Вс
+                        <td>Mn
+                        <td>Ts
+                        <td>Wd
+                        <td>Tr
+                        <td>Fi
+                        <td>St
+                        <td>Sn
                 <tbody>
             </table>
         </div>
@@ -265,8 +265,8 @@
                 DNlast = new Date(D.getFullYear(), D.getMonth(), Dlast).getDay(),
                 DNfirst = new Date(D.getFullYear(), D.getMonth(), 1).getDay(),
                 calendar = '<tr>',
-                month = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь",
-                    "Ноябрь", "Декабрь"
+                month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+                    "November", "December"
                 ];
             if (DNfirst != 0) {
                 for (var i = 1; i < DNfirst; i++) calendar += '<td>';

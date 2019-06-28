@@ -16,6 +16,13 @@
 </head>
 
 <body>
+	<!-- SVG sprite-->
+    <div class="sprite" style="display:none;">
+			<svg aria-hidden="true" focusable="false" id="icon-plus" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path>
+			</svg>	
+		<svg aria-hidden="true" focusable="false" id="arrow-down" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"></path></svg>
+    </div>
+    <!---->
 	<header class="main-header">
 		<div class="container">
 			<div class="row">
@@ -112,7 +119,9 @@
 				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="wrp-block">
 						<div class="cnt-block">
-							<i class="fas fa-arrow-down"></i>
+								<svg class="inline-svg-icon">
+										<use xlink:href="#arrow-down"></use>
+									</svg>
 						</div>
 						<span class="cnt-text">
 							Upload file<br>(1mb)
@@ -122,7 +131,9 @@
 				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="wrp-block">
 						<div class="cnt-block">
-							<i class="fas fa-arrow-down"></i>
+								<svg class="inline-svg-icon">
+										<use xlink:href="#arrow-down"></use>
+									</svg>
 						</div>
 						<span class="cnt-text">
 							Upload file<br>(1mb)
@@ -132,7 +143,9 @@
 				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="wrp-block">
 						<div class="cnt-block">
-							<i class="fas fa-arrow-down"></i>
+								<svg class="inline-svg-icon">
+										<use xlink:href="#arrow-down"></use>
+									</svg>
 						</div>
 						<span class="cnt-text">
 							Upload file<br>(1mb)
@@ -142,7 +155,9 @@
 				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="wrp-block">
 						<div class="cnt-block">
-								<i class="fas fa-plus"></i>
+								<svg class="inline-svg-icon">
+										<use xlink:href="#icon-plus"></use>
+									</svg>
 						</div>
 						<span class="cnt-text">
 							Add<br>file
